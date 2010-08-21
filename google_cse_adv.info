@@ -1,0 +1,5 @@
+name = Google CSE Advanced
+description = Implements Google's Custom Search Engine.
+dependencies[] = search
+version = 6.x-0.1
+core = 6.x

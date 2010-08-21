@@ -1,0 +1,22 @@
+/**
+ * Allows to change the request url that is sent to Gooogle CSE in order to
+ * fetch search results.
+ * As an example, you can add a default filter to your request here.
+ *
+ * @param object $request
+ *   Contains following properties:
+ *   - url (string)
+ */
+function hook_google_cse_adv_execute($request)
+
+/**
+ * Allows to change the filters.
+ *
+ * As an example, you can set some filter active here.
+ *
+ * @param object $data
+ *   Contains following properties:
+ *   - filters (array)
+ *   - response (string)
+ */
+function hook_google_cse_adv_filters($data)
